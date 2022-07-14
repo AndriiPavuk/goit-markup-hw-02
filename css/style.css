@@ -1,3 +1,42 @@
 body {
-    font-family: Raleway, Roboto, sans-serif;
+  font-family: Raleway, Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*-----header----*/
+
+.logotip {
+  text-decoration: none;
+}
+.header-a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.header-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.header-link:hover {
+  color: #2196f3;
 }
