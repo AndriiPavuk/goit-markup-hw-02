@@ -64,6 +64,10 @@ body {
   color: var(--color1);
 }
 
+.current {
+  color: var(--color1);
+}
+
 .header-contact {
   text-decoration: none;
   font-style: normal;
@@ -130,6 +134,7 @@ body {
 .three-capital-features {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--color2);
@@ -170,6 +175,7 @@ body {
 /*------------MAIN (PORTFOLIO)------------*/
 
 .main-button-port {
+  font-family: "Roboto", sans-serif;
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -179,6 +185,11 @@ body {
 }
 
 .main-button-port:hover {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+button.current {
   color: var(--color4);
   background-color: var(--color1);
 }
