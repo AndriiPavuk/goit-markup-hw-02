@@ -1,5 +1,5 @@
 :root {
-  --font-family2: "Raleway", sans-serif;
+  --font-family2: 'Raleway', sans-serif;
   --color1: #2196f3;
   --color2: #212121;
   --color3: #188ce8;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--color6);
   font-size: 14px;
 }
@@ -175,7 +175,7 @@ body {
 /*------------MAIN (PORTFOLIO)------------*/
 
 .main-button-port {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
